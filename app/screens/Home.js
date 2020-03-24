@@ -85,7 +85,7 @@ export const HomeScreen = ({navigation}) => {
     backContext.background &&
       BackgroundTimer.setInterval(() => {
         getOne()
-      }, 1000 * 60 * 5)
+      }, 1000 * 60 * 3)
     const userId = SyncStorage.get('userId')
     setValue(userId)
   }, [backContext.background])
