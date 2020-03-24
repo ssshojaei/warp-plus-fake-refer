@@ -1,0 +1,49 @@
+{
+  "name": "warp_fake_refer",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "https://github.com/ssshojaei/warp-plus-fake-refer",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "postinstall": "react-native link"
+  },
+  "dependencies": {
+    "@eva-design/eva": "^1.4.0",
+    "@react-native-community/async-storage": "^1.8.1",
+    "@react-native-community/masked-view": "^0.1.7",
+    "@react-navigation/native": "^5.1.1",
+    "@react-navigation/stack": "^5.2.3",
+    "@ui-kitten/components": "4.4.1",
+    "@ui-kitten/eva-icons": "4.4.1",
+    "axios": "^0.19.2",
+    "node-libs-react-native": "^1.0.3",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-android-local-notification": "^3.0.0",
+    "react-native-background-timer": "^2.2.0",
+    "react-native-eject": "^0.1.2",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-reanimated": "^1.7.0",
+    "react-native-safe-area-context": "^0.7.3",
+    "react-native-screens": "^2.4.0",
+    "react-native-svg": "^9.13.3",
+    "react-zlib-js": "^1.0.4",
+    "sync-storage": "^0.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": []
+  }
+}
